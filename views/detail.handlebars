@@ -1,0 +1,28 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>My Favorite Movies {{title}}</title>
+</head>
+
+<body>
+  <h1>Hello to Films of Abdi's!</h1>
+
+  <h2>Information about {{title}}:</h2>
+
+  <ul>
+    {{#with stats}}
+    <li class="stats">The movie director:  {{  director}}
+    <li class="stats">The movie type is:   {{  type }}
+    <li class="stats">The movie year is:  {{ year }}
+      {{/with}}
+  </ul>
+
+  <p><a href="/">back</a></p>
+  

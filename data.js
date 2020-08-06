@@ -11,3 +11,8 @@ let movies = [
 exports.getAll = () => {
     return movies;
 };
+
+exports.getDetail = title => {
+    const movie = movies.find(movies => movies.title === title);
+    return movie;
+}

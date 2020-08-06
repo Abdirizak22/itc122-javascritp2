@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Abdi's Movies!</h1>
+    <h2>For more details pick a movie form my list</h2>
+
+    <ul>
+    {{#each movies}}
+    <li><a href="/detail?title={{title}}">{{title}}</a></li>
+    {{/each}}
+  </ul>
+
+
+
+</body>
+</html>
+
+
+
