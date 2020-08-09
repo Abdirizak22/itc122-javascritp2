@@ -1,6 +1,6 @@
 
-==============THIS IS  Week 2 ASSIGNMENT - Intro to Express==============
-/*
+//==============THIS IS  Week 2 ASSIGNMENT - Intro to Express==============
+
 
 const express = require("express");
 const bodyParser = require("body-parser")
@@ -50,7 +50,6 @@ app.use( (req,res) => {
  });
 
  
-=======
 var http = require("http");
 const movie = require('./data');
 var allMovies = movie.getAll();
@@ -73,6 +72,6 @@ http.createServer(function(req,res){
   
 }).listen(process.env.PORT || 3000);
 
-*/
+
   
-  ============================ I have comment out the Week 2 ASSIGNMENT, uncomment the code to run the codes============================
+  //============================ I have comment out the Week 2 ASSIGNMENT, uncomment the code to run the codes============================
