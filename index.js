@@ -1,3 +1,6 @@
+
+==============THIS IS  Week 2 ASSIGNMENT - Intro to Express==============
+/*
 <<<<<<< HEAD
 const express = require("express");
 const bodyParser = require("body-parser")
@@ -70,3 +73,6 @@ http.createServer(function(req,res){
   
 }).listen(process.env.PORT || 3000);
 >>>>>>> 8e6e886f3b4b6d50043056c6507d515a77d256d4
+*/
+  
+  ============================ I have comment out the Week 2 ASSIGNMENT, uncomment the code to run the codes============================
