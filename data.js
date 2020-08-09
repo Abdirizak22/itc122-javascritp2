@@ -1,3 +1,5 @@
+==============THIS IS  Week 2 ASSIGNMENT - Intro to Express==============
+
 'use strict'
 
 let movies = [
@@ -16,3 +18,5 @@ exports.getDetail = title => {
     const movie = movies.find(movies => movies.title === title);
     return movie;
 }
+
+============== Week 2 ASSIGNMENT - End here ==============
