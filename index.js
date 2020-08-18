@@ -118,4 +118,4 @@ http.createServer(function(req,res){
 
 
   
-  //============================ I have comment out the Week 2 ASSIGNMENT, uncomment the code to run the codes============================
+  //============================ I have comment out the Week 2 ASSIGNMENT, ============================

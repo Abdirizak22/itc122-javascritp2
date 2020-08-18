@@ -1,4 +1,4 @@
-//==============THIS IS  Week 1 ASSIGNMENT - Intro to Express==============
+//==============THIS IS  Week 2 ASSIGNMENT - Intro to Express==============
 
 'use strict'
 const x=10
