@@ -1,6 +1,7 @@
 //==============THIS IS  Week 1 ASSIGNMENT - Intro to Express==============
 
 'use strict'
+const x=10
 
 let movies = [
     {title: "sergio", director:"Greg Moura", type:"action", year:2019},
@@ -15,7 +16,7 @@ exports.getAll = () => {
 };
 
 exports.getDetail = title => {
-    const movie = movies.find(movies => movies.title === title);
+const movie = movies.find(movies => movies.title === title);
     return movie;
 }
 
